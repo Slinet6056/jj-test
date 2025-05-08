@@ -1,15 +1,12 @@
 // A simple test program
+// 我不理解
 // 注释！
 
 fn main() {
-    print_hello();
-    print_goodbye();
+    print("Hello, world!");
+    print("Goodbye, world!");
 }
 
-fn print_hello() {
-    println!("Hello, world!");
-}
-
-fn print_goodbye() {
-    println!("Goodbye, world!");
+fn print(m: &str) {
+    println!("{m}");
 }
