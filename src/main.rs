@@ -1,4 +1,5 @@
 // A simple test program
+// 我不理解
 // 注释！
 
 fn main() {
